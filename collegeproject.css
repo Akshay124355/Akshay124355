@@ -1,0 +1,47 @@
+ body{
+
+    margin: 0%;
+    padding: 0%;
+    
+}
+p{
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    font-family: consolas;
+    color:  red;
+    margin: 0%;
+    padding: 0%;
+    color: transparent; */
+    
+}
+p:before{
+
+    /* content:attr(data-text); */
+    position: absolute;
+    /* top: 0;
+    left: 0 ;
+    height: 100px;
+    width: 100px;
+    color:#000;
+    overflow: hidden;
+    /* border: 1px solid #000; */
+    /* animation: type 8s steps(13) infinite;
+    white-space: normal;
+    margin-left: 10px; */ 
+
+} 
+/* @keyframes type{
+
+    0%{
+        width:0;
+    }
+    50%{
+        width:100%;
+    }
+    100%{
+        width:0;
+    } */
+

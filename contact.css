@@ -1,0 +1,30 @@
+.no-gutters {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(176, 80, 164, 1) 98%);
+    width: 800px;
+    height: 550px;
+    margin-left: 80px;
+    margin-top: 40px;
+    padding-left: 200px;
+    border-radius: 50px;
+
+}
+
+#button {
+    width: 300px;
+    padding-left: 20px;
+    margin-left: 3px;
+    background: black;
+    border-radius: 50px;
+}
+
+ body {
+     background: #000;
+}
+
+.container{
+
+    padding: 50px 0px 80px 0px ;
+    background: #000;
+
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+    .annimation {
+        padding-left: 300px;
+        padding-top: 150px;
+    }
+
+    .annimation {
+        border-right: solid 4px rgba(0, 255, 0, 0.50);
+        white-space: nowrap;
+        overflow: hidden;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 50px;
+        color: white;
+        letter-spacing: 5px;
+    }
+
+    /* Animation */
+    .annimation {
+        animation: animated-text 4s steps(35, end) 1s 1 normal both,
+            animated-cursor 600ms steps(35, end) r;
+    }
+
+    /* text animation */
+
+    @keyframes animated-text {
+        from {
+            width: 50px;
+        }
+
+        to {
+            width: 1000px;
+        }
+    }
+
+    /* cursor animations */
+
+    @keyframes animated-cursor {
+        from {
+            border-right-color: rgba(0, 255, 0, .75);
+        }
+
+        to {
+            border-right-color: transparent;
+        }
+    }
